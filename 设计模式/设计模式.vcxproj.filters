@@ -18,5 +18,8 @@
     <ClCompile Include="设计模式.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="03_单例模式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
