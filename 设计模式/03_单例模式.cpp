@@ -40,7 +40,7 @@ private:
 };
 
 
-int main()
+int main03()
 {
 	Singleton* s = Singleton::getInstance();
 	s->Way();
