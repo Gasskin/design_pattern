@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="03_单例模式.cpp" />
     <ClCompile Include="04_适配器模式.cpp" />
+    <ClCompile Include="05_策略模式.cpp" />
     <ClCompile Include="设计模式.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

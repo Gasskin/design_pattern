@@ -47,7 +47,7 @@ private:
 };
 
 
-int main()
+int main04()
 {
 	Iphone* p = new Iphone();
 	
