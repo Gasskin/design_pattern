@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="03_单例模式.cpp">
+    <ClCompile Include="3.1_策略模式.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="04_适配器模式.cpp">
+    <ClCompile Include="1.1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="05_策略模式.cpp">
+    <ClCompile Include="1.2_单例模式.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="02_工厂模式.cpp">
+    <ClCompile Include="2.1_适配器模式.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
