@@ -45,10 +45,3 @@ public:
 private:
 	Discount* discount;
 };
-
-int main()
-{
-	Sell* s = new Sell(new Dis20());
-	s->doSell(100);
-	return 0;
-}

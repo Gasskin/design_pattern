@@ -39,10 +39,3 @@ public:
 private:
 };
 
-
-int main03()
-{
-	Singleton* s = Singleton::getInstance();
-	s->Way();
-	return 0;
-}

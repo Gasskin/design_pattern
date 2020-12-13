@@ -46,16 +46,3 @@ private:
 	Battery* batter;
 };
 
-
-int main04()
-{
-	Iphone* p = new Iphone();
-	
-	Battery* b = new Battery();
-	p->get(b->High());//充电失败
-
-	Adapter* a = new Adapter();
-	p->get(a->adapt());//正常充电
-
-	return 0;
-}

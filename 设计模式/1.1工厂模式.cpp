@@ -55,10 +55,3 @@ public:
 	}
 };
 
-int main02()
-{
-	Factory* factory = new AppleFactory();
-	Fruit* apple = factory->GetFruit();
-	apple->eat();
-	return 0;
-}
