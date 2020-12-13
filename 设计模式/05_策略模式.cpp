@@ -26,7 +26,7 @@ class Dis20:public Discount
 public:
 	virtual float dis(float price)override
 	{
-		return 0.8 * price;
+		return 0.8f * price;
 	}
 };
 
@@ -34,16 +34,9 @@ public:
 class Sell
 {
 public:
-	Sell(int select = 1)
+	Sell(Discount* dis)
 	{
-		if (select == 1)
-		{
-			discount = new No();
-		}
-		else
-		{
-			discount = new Dis20();
-		}
+		discount = dis;
 	}
 	void doSell(float price)
 	{
@@ -55,7 +48,7 @@ private:
 
 int main()
 {
-	Sell* s = new Sell(2);
+	Sell* s = new Sell(new Dis20());
 	s->doSell(100);
 	return 0;
 }
