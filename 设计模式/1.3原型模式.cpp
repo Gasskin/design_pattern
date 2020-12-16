@@ -22,12 +22,3 @@ public:
 	}
 };
 
-int main()
-{
-	ConcretePro* pro = new ConcretePro(123);
-	cout << pro->data << endl;//123
-	
-	Prototype* clonePro = pro->clone();
-	cout << clonePro->data << endl;//123
-	return 0;
-}

@@ -139,9 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1.2_单例模式.cpp" />
-    <ClCompile Include="2.1_适配器模式.cpp" />
-    <ClCompile Include="3.1_策略模式.cpp" />
+    <ClCompile Include="1.2单例模式.cpp" />
+    <ClCompile Include="2.1适配器模式.cpp" />
+    <ClCompile Include="2.2桥接模式.cpp" />
+    <ClCompile Include="3.1策略模式.cpp" />
     <ClCompile Include="1.1工厂模式.cpp" />
     <ClCompile Include="1.3原型模式.cpp" />
   </ItemGroup>
