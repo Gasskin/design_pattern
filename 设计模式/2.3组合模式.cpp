@@ -29,11 +29,12 @@ public:
 	Office(string iName) :name(iName){}
 	void add(Component*) override
 	{
-		cout << "to do..." << endl;
+		//叶子构件不支持添加删除
+		cout << "not support" << endl;
 	}
 	void remove(Component*) override
 	{
-		cout << "to do..." << endl;
+		cout << "not support" << endl;
 	}
 	void operation() override
 	{
