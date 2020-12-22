@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1.2单例模式.cpp" />
+    <ClCompile Include="1.4建造者模式.cpp" />
     <ClCompile Include="2.1适配器模式.cpp" />
     <ClCompile Include="2.2桥接模式.cpp" />
     <ClCompile Include="2.3组合模式.cpp" />

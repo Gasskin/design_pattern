@@ -107,27 +107,27 @@ private:
 	vector<Component*>componentList;
 };
 
-int main()
-{
-	Component* head = new SubComponent("总部");
-	Component* branch1 = new SubComponent("江苏分部");
-	Component* branch2 = new SubComponent("南京分部");
-
-	Component* office1_1 = new AdminOffice("江苏");
-	Component* office1_2 = new DeanOffice("江苏");
-
-	Component* office2_1 = new AdminOffice("南京");
-	Component* office2_2 = new DeanOffice("南京");
-
-	head->add(branch1);
-	head->add(branch2);
-
-	branch1->add(office1_1);
-	branch1->add(office1_2);
-
-	branch2->add(office2_1);
-	branch2->add(office2_2);
-
-	head->operation();
-	return 0;
-}
+//int main()
+//{
+//	Component* head = new SubComponent("总部");
+//	Component* branch1 = new SubComponent("江苏分部");
+//	Component* branch2 = new SubComponent("南京分部");
+//
+//	Component* office1_1 = new AdminOffice("江苏");
+//	Component* office1_2 = new DeanOffice("江苏");
+//
+//	Component* office2_1 = new AdminOffice("南京");
+//	Component* office2_2 = new DeanOffice("南京");
+//
+//	head->add(branch1);
+//	head->add(branch2);
+//
+//	branch1->add(office1_1);
+//	branch1->add(office1_2);
+//
+//	branch2->add(office2_1);
+//	branch2->add(office2_2);
+//
+//	head->operation();
+//	return 0;
+//}
