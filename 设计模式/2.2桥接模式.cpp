@@ -65,17 +65,4 @@ public:
 	}
 };
 
-int main()
-{
-	Red* redBox = new Red(new Box());
-	redBox->operate();
-	Red* redCircle = new Red(new Circle());
-	redCircle->operate();
-
-	Blue* blueBox = new Blue(new Box());
-	blueBox->operate();
-	Blue* blueCircle = new Blue(new Circle());
-	blueCircle->operate();
-	return 0;
-}
 
