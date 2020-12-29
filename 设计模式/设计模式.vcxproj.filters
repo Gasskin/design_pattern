@@ -13,31 +13,43 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\创建型">
+      <UniqueIdentifier>{bb85427d-131e-4569-addf-8df69c8af136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\结构型">
+      <UniqueIdentifier>{4124a804-b74e-4cd3-8e71-0a2b83310c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\行为型">
+      <UniqueIdentifier>{4f4badfd-e05d-417a-95c4-6533b3acc33a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.1工厂模式.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="1.3原型模式.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\创建型</Filter>
     </ClCompile>
     <ClCompile Include="1.2单例模式.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\创建型</Filter>
     </ClCompile>
-    <ClCompile Include="2.1适配器模式.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="3.1策略模式.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="2.2桥接模式.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="2.3组合模式.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="1.3原型模式.cpp">
+      <Filter>源文件\创建型</Filter>
     </ClCompile>
     <ClCompile Include="1.4建造者模式.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\创建型</Filter>
+    </ClCompile>
+    <ClCompile Include="2.1适配器模式.cpp">
+      <Filter>源文件\结构型</Filter>
+    </ClCompile>
+    <ClCompile Include="2.2桥接模式.cpp">
+      <Filter>源文件\结构型</Filter>
+    </ClCompile>
+    <ClCompile Include="2.3组合模式.cpp">
+      <Filter>源文件\结构型</Filter>
+    </ClCompile>
+    <ClCompile Include="3.1策略模式.cpp">
+      <Filter>源文件\行为型</Filter>
+    </ClCompile>
+    <ClCompile Include="2.4装饰模式.cpp">
+      <Filter>源文件\结构型</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
