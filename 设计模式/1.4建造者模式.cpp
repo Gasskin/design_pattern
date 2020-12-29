@@ -97,12 +97,12 @@ public:
 	}
 };
 
-int main()
-{
-	Director* comDirecor = new Director();
-	AbstractBuilder* builder = new LenovoBuilder("I7", "16G");
-	comDirecor->makeBuilder(builder);
-	Computer* computer = builder->getComputer();
-	computer->show();
-	return 0;
-}
+//int main()
+//{
+//	Director* comDirecor = new Director();
+//	AbstractBuilder* builder = new LenovoBuilder("I7", "16G");
+//	comDirecor->makeBuilder(builder);
+//	Computer* computer = builder->getComputer();
+//	computer->show();
+//	return 0;
+//}
