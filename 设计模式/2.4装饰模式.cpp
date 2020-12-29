@@ -42,10 +42,10 @@ private:
 };
 
 //具体装饰者
-class Shell :public Decorator
+class InternetPhone :public Decorator
 {
 public:
-	Shell(Component* c)
+	InternetPhone(Component* c)
 	{
 		this->setComponent(c);
 	}
@@ -56,7 +56,7 @@ public:
 	}
 	void newOperation()
 	{
-		cout << "装手机壳" << endl;
+		cout << "上网" << endl;
 	}
 };
 
@@ -66,7 +66,7 @@ int main()
 	Component* c = new Phone();
 	c->operation();
 	cout << "---" << endl;
-	Component* cplus = new Shell(c);
+	Component* cplus = new InternetPhone(c);
 	cplus->operation();
 	return 0;
 }
