@@ -41,11 +41,11 @@ private:
 	Component* component;
 };
 
-//具体装饰者
-class InternetPhone :public Decorator
+//具体装饰者1
+class Internet :public Decorator
 {
 public:
-	InternetPhone(Component* c)
+	Internet(Component* c)
 	{
 		this->setComponent(c);
 	}
@@ -60,13 +60,35 @@ public:
 	}
 };
 
+//具体装饰者2
+class Video :public Decorator
+{
+public:
+	Video(Component* c)
+	{
+		this->setComponent(c);
+	}
+	void operation()
+	{
+		this->getComponent()->operation();
+		newOperation();
+	}
+	void newOperation()
+	{
+		cout << "拍视频" << endl;
+	}
+};
+
 
 int main()
 {
 	Component* c = new Phone();
 	c->operation();
 	cout << "---" << endl;
-	Component* cplus = new InternetPhone(c);
+	Component* cplus = new Internet(c);
 	cplus->operation();
+	cout << "---" << endl;
+	Component* cplusplus = new Video(cplus);
+	cplusplus->operation();
 	return 0;
 }
